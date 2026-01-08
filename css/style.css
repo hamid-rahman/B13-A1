@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* Global css */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+.container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.theme-color{
+    color: #30B868;
+}
+.theme-bg{
+    background: #30B868;
+}
+.btn1{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    padding: 12px 16px;
+    color: #fff;
+    background-color: #469165;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.btn1:hover{
+    border: 1px solid #469165;
+    color: #469165;
+    background-color: #fff;
+}
+
+.btn2{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    border: 1px solid #fff;
+    padding: 12px 16px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.btn2:hover{
+    color: #fff;
+    border: 1px solid #469165;
+    background-color: #469165;
+}
+
+
+
+
+
+/* main css */
+
+/* header */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 0;
+}
+.n-logo img{
+    min-width: 139px;
+}
+nav .menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+nav .menu li{
+    list-style: none;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+}
+.menu li a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* banner */
+#banner{
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 122px 180px;
+    text-align: center;
+}
+#banner .top-line{
+    padding: 8px 12px;
+    background:#fff;
+    max-width: 229px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin: 0 auto;
+
+}
+#banner .top-line img{
+    width: 10px;
+}
+#banner .top-line p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.banner-txt h1{
+    font-size: 72px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 16px;
+}
+.banner-txt p{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fff;
+    padding: 16px 0 32px 0;
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-btn button.btn1,.hero-btn button.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+/* Structure */
+
+#structure-main{
+    padding: 80px 0;
+    text-align: center;
+    background: linear-gradient(to bottom, #FBFBFB, #F0F0F0);
+}
+.structure-items{
+    padding: 70px 24px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.structure-item img{
+    width: 62px;
+    background: red;
+    padding: 14px;
+    border-radius: 100px;
+}
+.structure-item{
+    padding: 70px 24px;
+    min-height: 300px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.structure-item h3{
+    font-size: 24px;
+    line-height: 32px;
+    color: #001931;
+    padding: 16px 0;
+}
+.structure-item p{
+    font-size: 16px;
+    color: #627382;
+}
+.structure-txt h2{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    color: #001931;
+    padding: 16px 0;
+}
+.structure-txt p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+
+
+
+/* brain */
+#brain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
