@@ -253,3 +253,30 @@ nav .menu li{
     flex-direction: column;
     gap: 16px;
 }
+
+
+
+
+/* 
+early_ccess */
+
+#early_ccess{
+    padding-bottom: 120px;
+}
+#early_ccess button{
+    margin-top: 8px;
+    box-shadow:0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+#early_ccess .early_ccess-wrapper{
+    padding: 80px 0;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+#early_ccess p{
+    text-align: center;
+}
