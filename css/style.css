@@ -280,3 +280,24 @@ early_ccess */
 #early_ccess p{
     text-align: center;
 }
+
+
+
+
+
+/* footer */
+footer{
+    background: #001931;
+    padding: 120px 0 30px 0;
+}
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-social {
+    color: #fff;
+}
+.footer-social a {
+    color: #fff;
+}
