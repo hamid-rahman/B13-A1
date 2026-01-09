@@ -294,10 +294,31 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 84px;
+    border-bottom: 1px solid #21364C;
 }
 .footer-social {
     color: #fff;
 }
-.footer-social a {
+
+.social-icon {
+    padding-top: 16px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+}
+
+.social-icon a img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.footer_copyright{
+    padding-top: 30px;
+}
+.footer_copyright {
     color: #fff;
+    text-align: center;
+    font-size: 16px;
 }
