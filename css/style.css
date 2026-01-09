@@ -95,6 +95,10 @@ nav .menu li a{
     text-decoration: none;
     font-size: 20px;
     color: #474747;
+    transition: all .3s ease;
+}
+nav .menu li a:hover{
+    color: #30B868;
 }
 nav .menu li{
     list-style: none;
